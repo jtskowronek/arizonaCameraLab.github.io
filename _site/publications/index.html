@@ -1,0 +1,2788 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Publications</title>
+  <meta name="description"
+    content="Publications.">
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/publications/">
+  <link rel="shortcut icon" type="image/x-icon" href="http://localhost:4000/assets/images/favicon.ico">
+
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="http://localhost:4000/assets/fonts/font-awesome/css/font-awesome.min.css">
+  
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+        inlineMath: [['$','$']]
+      }
+    });
+  </script>
+  <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript">
+  </script>
+
+  <script>
+    function ShowOrHide(select='inpress') {
+        // var elem = document.getElementById("btn");
+        var x = document.getElementById('inpress');
+        var y = document.getElementById('byyear');
+        var z = document.getElementById('bytype');
+        var w = document.getElementById('bytalk');
+        var u = document.getElementById('bydiscip');
+
+
+        var x_btn = document.getElementById("btn_inpress");
+        var y_btn = document.getElementById("btn_byyear");
+        var z_btn = document.getElementById("btn_bytype");
+        var w_btn = document.getElementById("btn_bytalk");
+        var u_btn = document.getElementById("btn_bydiscip");
+
+
+        // document.getElementById(select).display='block';
+        // document.getElementById("btn_"+select).disabled=true;
+
+        if (select == 'inpress') {          
+            x.style.display = 'block';
+            x_btn.disabled = true; 
+            y.style.display = 'none';
+            y_btn.disabled = false;   
+            z.style.display = 'none';
+            z_btn.disabled = false;   
+            w.style.display = 'none';
+            w_btn.disabled = false;   
+            u.style.display = 'none';
+            u_btn.disabled = false;  
+            // elem.innerHTML = typetxt;
+        } else if (select == 'byyear'){          
+            x.style.display = 'none';
+            x_btn.disabled = false;  
+            y.style.display = 'block';
+            // y_btn.closest('li').addClass('active');   
+            y_btn.disabled = true;
+            z.style.display = 'none';
+            z_btn.disabled = false;  
+            w.style.display = 'none';
+            w_btn.disabled = false;  
+            u.style.display = 'none';
+            u_btn.disabled = false;   
+            // elem.innerHTML = yeartxt;
+        } else if (select == 'bytype'){          
+            x.style.display = 'none';
+            x_btn.disabled = false;  
+            y.style.display = 'none';
+            y_btn.disabled = false;  
+            z.style.display = 'block';
+            z_btn.disabled = true;
+            // z_btn.parents('li').addClass('active').siblings().removeClass('active'); 
+            w.style.display = 'none';
+            w_btn.disabled = false;   
+            u.style.display = 'none';
+            u_btn.disabled = false;  
+        }
+        else if (select == 'bytalk'){          
+            x.style.display = 'none';
+            x_btn.disabled = false;  
+            y.style.display = 'none';
+            y_btn.disabled = false;  
+            z.style.display = 'none';
+            z_btn.disabled = false;
+            w.style.display = 'block';
+            w_btn.disabled = true;  
+            u.style.display = 'none';
+            u_btn.disabled = false;  
+        }
+        else if (select == 'bydiscip'){          
+            x.style.display = 'none';
+            x_btn.disabled = false;  
+            y.style.display = 'none';
+            y_btn.disabled = false;  
+            z.style.display = 'none';
+            z_btn.disabled = false;
+            w.style.display = 'none';
+            w_btn.disabled = false;   
+            u.style.display = 'block';
+            u_btn.disabled = true;   
+        }
+    }
+  </script>
+
+
+  <!-- Google Analytics -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TXGRE1MPLZ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TXGRE1MPLZ');
+</script>
+  
+
+
+<script type="text/javascript">
+  (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+  })(window, document, "clarity", "script", "l0fyrfksvt");
+</script>
+
+
+
+  <!--  -->
+ 
+
+  <!-- google search --> 
+  <meta name="google-site-verification" content="zA-pyWCSMDUz2guOFMd9WzdV7NSk1GTXBbDOrCN9FN4" />
+
+</head>
+
+
+  <body text-align="justify">
+    
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+	<div class="container-fluid">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+				data-target="#navbar-collapse-1" aria-expanded="false">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="http://localhost:4000/">Camera Lab at University of Arizona</a>
+		</div>
+		<div class="collapse navbar-collapse" id="navbar-collapse-1">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="http://localhost:4000/index">Home</a></li>
+				<!-- <li><a href="http://localhost:4000/bio">Bio</a></li> -->
+				<li><a href="http://localhost:4000/team">Team</a></li>
+				<!-- <li><a href="http://localhost:4000/vacancies">Vacancies</a></li> -->
+				<li><a href="http://localhost:4000/publications">Publications</a></li>
+				<li><a href="http://localhost:4000/research">Research</a></li>
+				<li><a href="http://localhost:4000/project">Projects</a></li>
+				<li><a href="http://localhost:4000/courses">Courses</a></li>				
+				<!-- <li><a href="http://localhost:4000/posts">Notes</a></li> -->
+				<!-- <li><a href="http://localhost:4000/conduct">Conduct</a></li> -->
+			</ul>
+		</div>
+	</div>
+</div>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div id="gridid" class="col-sm-12">
+  <!-- ## Featured -->
+<!-- <br>
+<div style="text-align:center">
+<a href="https://onlinelibrary.wiley.com/doi/10.1002/lpor.202200828" target="_blank"><img src="/assets/images/research/lpor202308.jpg"  style="height:200px; border-radius: 0%; box-shadow: 0px 0px 0px #ffffff00;"></a>
+<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/lpor.202100008" target="_blank"><img src="/assets/images/research/lpor202106.jpg"  style="height:200px; border-radius: 0%; box-shadow: 0px 0px 0px #ffffff00;"></a>
+<a href="https://www.osapublishing.org/prj/home.cfm" target="_blank"><img src="/assets/images/research/prj.jpg"  style="height:200px; border-radius: 0%;%"></a>
+<!-- <a href="https://www.journals.elsevier.com/optics-and-lasers-in-engineering" target="_blank"><img src="/assets/images/research/ole.jpg"  style="height:200px; border-radius: 0%;%"></a> -->
+<!-- <a href="https://www.osapublishing.org/oe/home.cfm" target="_blank"><img src="/assets/images/research/oe.jpg"  style="height:200px; border-radius: 0%;%"></a> -->
+<!-- <a href="https://onlinelibrary.wiley.com/doi/10.1002/apxr.202200118" target="_blank"><img src="/assets/images/research/apxr202302.jpg"  style="height:200px; border-radius: 0%; box-shadow: 0px 0px 0px #ffffff00;"></a>
+</div>
+<br> -->
+
+<!-- Nav -->
+<ul class="nav nav-tabs" style="width:100%; margin: 0 auto;">
+    <li class="active">
+    <a data-toggle="tab"><button id="btn_bytype" onclick="ShowOrHide('bytype')">By Type</button></a>
+    </li>
+    <li class="">
+    <a data-toggle="tab"><button id="btn_byyear" onclick="ShowOrHide('byyear')">By Year</button> </a>
+    </li>
+    <!-- <li class="">
+    <a data-toggle="tab"><button id="btn_bydiscip" onclick="ShowOrHide('bydiscip')">By Discipline</button> </a>
+    </li> -->
+    <!-- <li class="">
+    <a data-toggle="tab"><button id="btn_bytalk" onclick="ShowOrHide('bytalk')">Talks</button></a>
+    </li> -->
+    <li class="">
+    <a data-toggle="tab"><button id="btn_inpress" onclick="ShowOrHide('inpress')">Preprint</button></a>
+    </li>
+    <!-- <li class="">
+    <a data-toggle="tab" href="https://scholar.google.com/citations?hl=en&user=adQED6IAAAAJ&view_op=list_works&authuser=1&sortby=pubdate"><button onclick="window.location.href='https://scholar.google.com/citations?hl=en&user=adQED6IAAAAJ&view_op=list_works&authuser=1&sortby=pubdate';">Google Scholar</button></a>
+    </li> -->
+</ul>
+
+<p><br /></p>
+
+<script>var byyeartext="year";var bytypetext="type";</script>
+
+<!-- Display by year -->
+<div id="byyear" style="display:none;">
+
+  <h3 id="2024">2024</h3>
+  <ol class="bibliography"></ol>
+
+  <h3 id="2023">2023</h3>
+  <ol class="bibliography"></ol>
+
+  <h3 id="2022">2022</h3>
+  <ol class="bibliography"></ol>
+
+  <h3 id="2021">2021</h3>
+  <ol class="bibliography"><li><div id="Yuan2021ISPM">
+  
+    <span class="author">
+      
+        
+          
+            
+              Xin Yuan,
+            
+          
+        
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Aggelos K. Katsaggelos,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1109/msp.2020.3023869" target="_blank" style="color: #555555;">"<span class="title"><u>Snapshot Compressive Imaging: Theory, Algorithms, and Applications</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>IEEE Signal Processing Magazine</em>
+        
+          38
+        
+        
+          (2)
+        
+        
+          : 65–88,
+        
+        
+        <span style="text-transform:capitalize">mar. </span>
+        
+        
+          2021.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Yuan2021ISPM-bibtex">
+        <pre>@article{Yuan2021ISPM,
+  author = {Yuan, Xin and Brady, David J. and Katsaggelos, Aggelos K.},
+  journal = {IEEE Signal Processing Magazine},
+  title = {Snapshot Compressive Imaging: Theory, Algorithms, and Applications},
+  year = {2021},
+  month = mar,
+  number = {2},
+  pages = {65--88},
+  volume = {38},
+  doi = {10.1109/msp.2020.3023869},
+  issn = {1558-0792},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h3 id="2020">2020</h3>
+  <ol class="bibliography"><li><div id="Brady2020AiOaP">
+  
+    <span class="author">
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Lu Fang,
+            
+          
+        
+      
+        
+          
+            
+              Zhan Ma,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1364/aop.398263" target="_blank" style="color: #555555;">"<span class="title"><u>Deep learning for camera data acquisition, control, and image estimation</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Advances in Optics and Photonics</em>
+        
+          12
+        
+        
+          (4)
+        
+        
+          : 787,
+        
+        
+        <span style="text-transform:capitalize">nov. </span>
+        
+        
+          2020.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2020AiOaP-bibtex">
+        <pre>@article{Brady2020AiOaP,
+  author = {Brady, David J. and Fang, Lu and Ma, Zhan},
+  journal = {Advances in Optics and Photonics},
+  title = {Deep learning for camera data acquisition, control, and image estimation},
+  year = {2020},
+  month = nov,
+  number = {4},
+  pages = {787},
+  volume = {12},
+  doi = {10.1364/aop.398263},
+  issn = {1943-8206},
+  publisher = {Optica Publishing Group}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h3 id="2019">2019</h3>
+  <ol class="bibliography"></ol>
+
+  <h3 id="2018">2018</h3>
+  <ol class="bibliography"><li><div id="Brady2018O">
+  
+    <span class="author">
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Wubin Pang,
+            
+          
+        
+      
+        
+          
+            
+              Han Li,
+            
+          
+        
+      
+        
+          
+            
+              Zhan Ma,
+            
+          
+        
+      
+        
+          
+            
+              Yue Tao,
+            
+          
+        
+      
+        
+          
+            
+              Xun Cao,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1364/optica.5.000127" target="_blank" style="color: #555555;">"<span class="title"><u>Parallel cameras</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Optica</em>
+        
+          5
+        
+        
+          (2)
+        
+        
+          : 127,
+        
+        
+        <span style="text-transform:capitalize">jan. </span>
+        
+        
+          2018.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2018O-bibtex">
+        <pre>@article{Brady2018O,
+  author = {Brady, David J. and Pang, Wubin and Li, Han and Ma, Zhan and Tao, Yue and Cao, Xun},
+  journal = {Optica},
+  title = {Parallel cameras},
+  year = {2018},
+  month = jan,
+  number = {2},
+  pages = {127},
+  volume = {5},
+  doi = {10.1364/optica.5.000127},
+  issn = {2334-2536},
+  publisher = {The Optical Society}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h3 id="2017">2017</h3>
+  <ol class="bibliography"></ol>
+
+  <h3 id="2016">2016</h3>
+  <ol class="bibliography"><li><div id="Cao2016ISPM">
+  
+    <span class="author">
+      
+        
+          
+            
+              Xun Cao,
+            
+          
+        
+      
+        
+          
+            
+              Tao Yue,
+            
+          
+        
+      
+        
+          
+            
+              Xing Lin,
+            
+          
+        
+      
+        
+          
+            
+              Stephen Lin,
+            
+          
+        
+      
+        
+          
+            
+              Xin Yuan,
+            
+          
+        
+      
+        
+          
+            
+              Qionghai Dai,
+            
+          
+        
+      
+        
+          
+            
+              Lawrence Carin,
+            
+          
+        
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1109/msp.2016.2582378" target="_blank" style="color: #555555;">"<span class="title"><u>Computational Snapshot Multispectral Cameras: Toward dynamic capture of the spectral world</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>IEEE Signal Processing Magazine</em>
+        
+          33
+        
+        
+          (5)
+        
+        
+          : 95–108,
+        
+        
+        <span style="text-transform:capitalize">sep. </span>
+        
+        
+          2016.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Cao2016ISPM-bibtex">
+        <pre>@article{Cao2016ISPM,
+  author = {Cao, Xun and Yue, Tao and Lin, Xing and Lin, Stephen and Yuan, Xin and Dai, Qionghai and Carin, Lawrence and Brady, David J.},
+  journal = {IEEE Signal Processing Magazine},
+  title = {Computational Snapshot Multispectral Cameras: Toward dynamic capture of the spectral world},
+  year = {2016},
+  month = sep,
+  number = {5},
+  pages = {95--108},
+  volume = {33},
+  doi = {10.1109/msp.2016.2582378},
+  issn = {1053-5888},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h3 id="2015">2015</h3>
+  <ol class="bibliography"><li><div id="Brady2015AiOaP">
+  
+    <span class="author">
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Alex Mrozack,
+            
+          
+        
+      
+        
+          
+            
+              Ken MacCabe,
+            
+          
+        
+      
+        
+          
+            
+              Patrick Llull,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1364/aop.7.000756" target="_blank" style="color: #555555;">"<span class="title"><u>Compressive tomography</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Advances in Optics and Photonics</em>
+        
+          7
+        
+        
+          (4)
+        
+        
+          : 756,
+        
+        
+        <span style="text-transform:capitalize">nov. </span>
+        
+        
+          2015.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2015AiOaP-bibtex">
+        <pre>@article{Brady2015AiOaP,
+  author = {Brady, David J. and Mrozack, Alex and MacCabe, Ken and Llull, Patrick},
+  journal = {Advances in Optics and Photonics},
+  title = {Compressive tomography},
+  year = {2015},
+  month = nov,
+  number = {4},
+  pages = {756},
+  volume = {7},
+  doi = {10.1364/aop.7.000756},
+  issn = {1943-8206},
+  publisher = {The Optical Society}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h3 id="2014">2014</h3>
+  <ol class="bibliography"><li><div id="Arce2014ISPM">
+  
+    <span class="author">
+      
+        
+          
+            
+              Gonzalo R. Arce,
+            
+          
+        
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Lawrence Carin,
+            
+          
+        
+      
+        
+          
+            
+              Henry Arguello,
+            
+          
+        
+      
+        
+          
+            
+              David S. Kittle,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1109/msp.2013.2278763" target="_blank" style="color: #555555;">"<span class="title"><u>Compressive Coded Aperture Spectral Imaging: An Introduction</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>IEEE Signal Processing Magazine</em>
+        
+          31
+        
+        
+          (1)
+        
+        
+          : 105–115,
+        
+        
+        <span style="text-transform:capitalize">jan. </span>
+        
+        
+          2014.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Arce2014ISPM-bibtex">
+        <pre>@article{Arce2014ISPM,
+  author = {Arce, Gonzalo R. and Brady, David J. and Carin, Lawrence and Arguello, Henry and Kittle, David S.},
+  journal = {IEEE Signal Processing Magazine},
+  title = {Compressive Coded Aperture Spectral Imaging: An Introduction},
+  year = {2014},
+  month = jan,
+  number = {1},
+  pages = {105--115},
+  volume = {31},
+  doi = {10.1109/msp.2013.2278763},
+  issn = {1053-5888},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h3 id="2013">2013</h3>
+  <ol class="bibliography"><li><div id="Hunt2013S">
+  
+    <span class="author">
+      
+        
+          
+            
+              John Hunt,
+            
+          
+        
+      
+        
+          
+            
+              Tom Driscoll,
+            
+          
+        
+      
+        
+          
+            
+              Alex Mrozack,
+            
+          
+        
+      
+        
+          
+            
+              Guy Lipworth,
+            
+          
+        
+      
+        
+          
+            
+              Matthew Reynolds,
+            
+          
+        
+      
+        
+          
+            
+              David Brady,
+            
+          
+        
+      
+        
+          
+            
+              David R. Smith,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1126/science.1230054" target="_blank" style="color: #555555;">"<span class="title"><u>Metamaterial Apertures for Computational Imaging</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Science</em>
+        
+          339
+        
+        
+          (6117)
+        
+        
+          : 310–313,
+        
+        
+        <span style="text-transform:capitalize">jan. </span>
+        
+        
+          2013.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Hunt2013S-bibtex">
+        <pre>@article{Hunt2013S,
+  author = {Hunt, John and Driscoll, Tom and Mrozack, Alex and Lipworth, Guy and Reynolds, Matthew and Brady, David and Smith, David R.},
+  journal = {Science},
+  title = {Metamaterial Apertures for Computational Imaging},
+  year = {2013},
+  month = jan,
+  number = {6117},
+  pages = {310--313},
+  volume = {339},
+  doi = {10.1126/science.1230054},
+  issn = {1095-9203},
+  publisher = {American Association for the Advancement of Science (AAAS)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h3 id="2012">2012</h3>
+  <ol class="bibliography"><li><div id="Brady2012N">
+  
+    <span class="author">
+      
+        
+          
+            
+              D. J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              M. E. Gehm,
+            
+          
+        
+      
+        
+          
+            
+              R. A. Stack,
+            
+          
+        
+      
+        
+          
+            
+              D. L. Marks,
+            
+          
+        
+      
+        
+          
+            
+              D. S. Kittle,
+            
+          
+        
+      
+        
+          
+            
+              D. R. Golish,
+            
+          
+        
+      
+        
+          
+            
+              E. M. Vera,
+            
+          
+        
+      
+        
+          
+            
+              S. D. Feller,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1038/nature11150" target="_blank" style="color: #555555;">"<span class="title"><u>Multiscale gigapixel photography</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Nature</em>
+        
+          486
+        
+        
+          (7403)
+        
+        
+          : 386–389,
+        
+        
+        <span style="text-transform:capitalize">jun. </span>
+        
+        
+          2012.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2012N-bibtex">
+        <pre>@article{Brady2012N,
+  author = {Brady, D. J. and Gehm, M. E. and Stack, R. A. and Marks, D. L. and Kittle, D. S. and Golish, D. R. and Vera, E. M. and Feller, S. D.},
+  journal = {Nature},
+  title = {Multiscale gigapixel photography},
+  year = {2012},
+  month = jun,
+  number = {7403},
+  pages = {386--389},
+  volume = {486},
+  doi = {10.1038/nature11150},
+  issn = {1476-4687},
+  publisher = {Springer Science and Business Media LLC}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h3 id="2011">2011</h3>
+  <ol class="bibliography"></ol>
+
+  <h3 id="2010">2010</h3>
+  <ol class="bibliography"></ol>
+
+  <h3 id="2009">2009</h3>
+  <ol class="bibliography"><li><div id="Brady2009OE">
+  
+    <span class="author">
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Kerkil Choi,
+            
+          
+        
+      
+        
+          
+            
+              Daniel L. Marks,
+            
+          
+        
+      
+        
+          
+            
+              Ryoichi Horisaki,
+            
+          
+        
+      
+        
+          
+            
+              Sehoon Lim,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1364/oe.17.013040" target="_blank" style="color: #555555;">"<span class="title"><u>Compressive Holography</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Optics Express</em>
+        
+          17
+        
+        
+          (15)
+        
+        
+          : 13040,
+        
+        
+        <span style="text-transform:capitalize">jul. </span>
+        
+        
+          2009.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2009OE-bibtex">
+        <pre>@article{Brady2009OE,
+  author = {Brady, David J. and Choi, Kerkil and Marks, Daniel L. and Horisaki, Ryoichi and Lim, Sehoon},
+  journal = {Optics Express},
+  title = {Compressive Holography},
+  year = {2009},
+  month = jul,
+  number = {15},
+  pages = {13040},
+  volume = {17},
+  doi = {10.1364/oe.17.013040},
+  issn = {1094-4087},
+  publisher = {Optica Publishing Group}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+</div>
+
+<!-- Display by Disciplinary -->
+<div id="bydiscip" style="display:none;">
+
+  <h2 id="cross-disciplinary">Cross-disciplinary</h2>
+
+  <ol class="bibliography"></ol>
+
+  <h2 id="computer-science">Computer science</h2>
+
+  <ol class="bibliography"></ol>
+
+  <h2 id="optics">Optics</h2>
+
+  <ol class="bibliography"></ol>
+
+</div>
+
+<!-- In Progress -->
+<div id="inpress" style="display:none;">
+
+  <ol class="bibliography"></ol>
+
+</div>
+
+<!-- Display by type -->
+<div id="bytype" style="display:block;">
+
+  <h2 id="journal-papers">Journal papers</h2>
+
+  <ol class="bibliography"><li><div id="Brady2020AiOaP">
+  
+    <span class="author">
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Lu Fang,
+            
+          
+        
+      
+        
+          
+            
+              Zhan Ma,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1364/aop.398263" target="_blank" style="color: #555555;">"<span class="title"><u>Deep learning for camera data acquisition, control, and image estimation</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Advances in Optics and Photonics</em>
+        
+          12
+        
+        
+          (4)
+        
+        
+          : 787,
+        
+        
+        <span style="text-transform:capitalize">nov. </span>
+        
+        
+          2020.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2020AiOaP-bibtex">
+        <pre>@article{Brady2020AiOaP,
+  author = {Brady, David J. and Fang, Lu and Ma, Zhan},
+  journal = {Advances in Optics and Photonics},
+  title = {Deep learning for camera data acquisition, control, and image estimation},
+  year = {2020},
+  month = nov,
+  number = {4},
+  pages = {787},
+  volume = {12},
+  doi = {10.1364/aop.398263},
+  issn = {1943-8206},
+  publisher = {Optica Publishing Group}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Brady2015AiOaP">
+  
+    <span class="author">
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Alex Mrozack,
+            
+          
+        
+      
+        
+          
+            
+              Ken MacCabe,
+            
+          
+        
+      
+        
+          
+            
+              Patrick Llull,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1364/aop.7.000756" target="_blank" style="color: #555555;">"<span class="title"><u>Compressive tomography</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Advances in Optics and Photonics</em>
+        
+          7
+        
+        
+          (4)
+        
+        
+          : 756,
+        
+        
+        <span style="text-transform:capitalize">nov. </span>
+        
+        
+          2015.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2015AiOaP-bibtex">
+        <pre>@article{Brady2015AiOaP,
+  author = {Brady, David J. and Mrozack, Alex and MacCabe, Ken and Llull, Patrick},
+  journal = {Advances in Optics and Photonics},
+  title = {Compressive tomography},
+  year = {2015},
+  month = nov,
+  number = {4},
+  pages = {756},
+  volume = {7},
+  doi = {10.1364/aop.7.000756},
+  issn = {1943-8206},
+  publisher = {The Optical Society}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Brady2018O">
+  
+    <span class="author">
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Wubin Pang,
+            
+          
+        
+      
+        
+          
+            
+              Han Li,
+            
+          
+        
+      
+        
+          
+            
+              Zhan Ma,
+            
+          
+        
+      
+        
+          
+            
+              Yue Tao,
+            
+          
+        
+      
+        
+          
+            
+              Xun Cao,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1364/optica.5.000127" target="_blank" style="color: #555555;">"<span class="title"><u>Parallel cameras</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Optica</em>
+        
+          5
+        
+        
+          (2)
+        
+        
+          : 127,
+        
+        
+        <span style="text-transform:capitalize">jan. </span>
+        
+        
+          2018.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2018O-bibtex">
+        <pre>@article{Brady2018O,
+  author = {Brady, David J. and Pang, Wubin and Li, Han and Ma, Zhan and Tao, Yue and Cao, Xun},
+  journal = {Optica},
+  title = {Parallel cameras},
+  year = {2018},
+  month = jan,
+  number = {2},
+  pages = {127},
+  volume = {5},
+  doi = {10.1364/optica.5.000127},
+  issn = {2334-2536},
+  publisher = {The Optical Society}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Yuan2021ISPM">
+  
+    <span class="author">
+      
+        
+          
+            
+              Xin Yuan,
+            
+          
+        
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Aggelos K. Katsaggelos,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1109/msp.2020.3023869" target="_blank" style="color: #555555;">"<span class="title"><u>Snapshot Compressive Imaging: Theory, Algorithms, and Applications</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>IEEE Signal Processing Magazine</em>
+        
+          38
+        
+        
+          (2)
+        
+        
+          : 65–88,
+        
+        
+        <span style="text-transform:capitalize">mar. </span>
+        
+        
+          2021.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Yuan2021ISPM-bibtex">
+        <pre>@article{Yuan2021ISPM,
+  author = {Yuan, Xin and Brady, David J. and Katsaggelos, Aggelos K.},
+  journal = {IEEE Signal Processing Magazine},
+  title = {Snapshot Compressive Imaging: Theory, Algorithms, and Applications},
+  year = {2021},
+  month = mar,
+  number = {2},
+  pages = {65--88},
+  volume = {38},
+  doi = {10.1109/msp.2020.3023869},
+  issn = {1558-0792},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Brady2012N">
+  
+    <span class="author">
+      
+        
+          
+            
+              D. J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              M. E. Gehm,
+            
+          
+        
+      
+        
+          
+            
+              R. A. Stack,
+            
+          
+        
+      
+        
+          
+            
+              D. L. Marks,
+            
+          
+        
+      
+        
+          
+            
+              D. S. Kittle,
+            
+          
+        
+      
+        
+          
+            
+              D. R. Golish,
+            
+          
+        
+      
+        
+          
+            
+              E. M. Vera,
+            
+          
+        
+      
+        
+          
+            
+              S. D. Feller,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1038/nature11150" target="_blank" style="color: #555555;">"<span class="title"><u>Multiscale gigapixel photography</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Nature</em>
+        
+          486
+        
+        
+          (7403)
+        
+        
+          : 386–389,
+        
+        
+        <span style="text-transform:capitalize">jun. </span>
+        
+        
+          2012.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2012N-bibtex">
+        <pre>@article{Brady2012N,
+  author = {Brady, D. J. and Gehm, M. E. and Stack, R. A. and Marks, D. L. and Kittle, D. S. and Golish, D. R. and Vera, E. M. and Feller, S. D.},
+  journal = {Nature},
+  title = {Multiscale gigapixel photography},
+  year = {2012},
+  month = jun,
+  number = {7403},
+  pages = {386--389},
+  volume = {486},
+  doi = {10.1038/nature11150},
+  issn = {1476-4687},
+  publisher = {Springer Science and Business Media LLC}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Brady2009OE">
+  
+    <span class="author">
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Kerkil Choi,
+            
+          
+        
+      
+        
+          
+            
+              Daniel L. Marks,
+            
+          
+        
+      
+        
+          
+            
+              Ryoichi Horisaki,
+            
+          
+        
+      
+        
+          
+            
+              Sehoon Lim,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1364/oe.17.013040" target="_blank" style="color: #555555;">"<span class="title"><u>Compressive Holography</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Optics Express</em>
+        
+          17
+        
+        
+          (15)
+        
+        
+          : 13040,
+        
+        
+        <span style="text-transform:capitalize">jul. </span>
+        
+        
+          2009.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Brady2009OE-bibtex">
+        <pre>@article{Brady2009OE,
+  author = {Brady, David J. and Choi, Kerkil and Marks, Daniel L. and Horisaki, Ryoichi and Lim, Sehoon},
+  journal = {Optics Express},
+  title = {Compressive Holography},
+  year = {2009},
+  month = jul,
+  number = {15},
+  pages = {13040},
+  volume = {17},
+  doi = {10.1364/oe.17.013040},
+  issn = {1094-4087},
+  publisher = {Optica Publishing Group}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Arce2014ISPM">
+  
+    <span class="author">
+      
+        
+          
+            
+              Gonzalo R. Arce,
+            
+          
+        
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              Lawrence Carin,
+            
+          
+        
+      
+        
+          
+            
+              Henry Arguello,
+            
+          
+        
+      
+        
+          
+            
+              David S. Kittle,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1109/msp.2013.2278763" target="_blank" style="color: #555555;">"<span class="title"><u>Compressive Coded Aperture Spectral Imaging: An Introduction</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>IEEE Signal Processing Magazine</em>
+        
+          31
+        
+        
+          (1)
+        
+        
+          : 105–115,
+        
+        
+        <span style="text-transform:capitalize">jan. </span>
+        
+        
+          2014.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Arce2014ISPM-bibtex">
+        <pre>@article{Arce2014ISPM,
+  author = {Arce, Gonzalo R. and Brady, David J. and Carin, Lawrence and Arguello, Henry and Kittle, David S.},
+  journal = {IEEE Signal Processing Magazine},
+  title = {Compressive Coded Aperture Spectral Imaging: An Introduction},
+  year = {2014},
+  month = jan,
+  number = {1},
+  pages = {105--115},
+  volume = {31},
+  doi = {10.1109/msp.2013.2278763},
+  issn = {1053-5888},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Cao2016ISPM">
+  
+    <span class="author">
+      
+        
+          
+            
+              Xun Cao,
+            
+          
+        
+      
+        
+          
+            
+              Tao Yue,
+            
+          
+        
+      
+        
+          
+            
+              Xing Lin,
+            
+          
+        
+      
+        
+          
+            
+              Stephen Lin,
+            
+          
+        
+      
+        
+          
+            
+              Xin Yuan,
+            
+          
+        
+      
+        
+          
+            
+              Qionghai Dai,
+            
+          
+        
+      
+        
+          
+            
+              Lawrence Carin,
+            
+          
+        
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1109/msp.2016.2582378" target="_blank" style="color: #555555;">"<span class="title"><u>Computational Snapshot Multispectral Cameras: Toward dynamic capture of the spectral world</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>IEEE Signal Processing Magazine</em>
+        
+          33
+        
+        
+          (5)
+        
+        
+          : 95–108,
+        
+        
+        <span style="text-transform:capitalize">sep. </span>
+        
+        
+          2016.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Cao2016ISPM-bibtex">
+        <pre>@article{Cao2016ISPM,
+  author = {Cao, Xun and Yue, Tao and Lin, Xing and Lin, Stephen and Yuan, Xin and Dai, Qionghai and Carin, Lawrence and Brady, David J.},
+  journal = {IEEE Signal Processing Magazine},
+  title = {Computational Snapshot Multispectral Cameras: Toward dynamic capture of the spectral world},
+  year = {2016},
+  month = sep,
+  number = {5},
+  pages = {95--108},
+  volume = {33},
+  doi = {10.1109/msp.2016.2582378},
+  issn = {1053-5888},
+  publisher = {Institute of Electrical and Electronics Engineers (IEEE)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Marks1999S">
+  
+    <span class="author">
+      
+        
+          
+            
+              Daniel L. Marks,
+            
+          
+        
+      
+        
+          
+            
+              Ronald A. Stack,
+            
+          
+        
+      
+        
+          
+            
+              David J. Brady,
+            
+          
+        
+      
+        
+          
+            
+              David C. Munson,
+            
+          
+        
+      
+        
+          
+            
+              Rachael B. Brady,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1126/science.284.5423.2164" target="_blank" style="color: #555555;">"<span class="title"><u>Visible Cone-Beam Tomography With a Lensless Interferometric Camera</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Science</em>
+        
+          284
+        
+        
+          (5423)
+        
+        
+          : 2164–2166,
+        
+        
+        <span style="text-transform:capitalize">jun. </span>
+        
+        
+          1999.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Marks1999S-bibtex">
+        <pre>@article{Marks1999S,
+  author = {Marks, Daniel L. and Stack, Ronald A. and Brady, David J. and Munson, David C. and Brady, Rachael B.},
+  journal = {Science},
+  title = {Visible Cone-Beam Tomography With a Lensless Interferometric Camera},
+  year = {1999},
+  month = jun,
+  number = {5423},
+  pages = {2164--2166},
+  volume = {284},
+  doi = {10.1126/science.284.5423.2164},
+  issn = {1095-9203},
+  publisher = {American Association for the Advancement of Science (AAAS)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Hunt2013S">
+  
+    <span class="author">
+      
+        
+          
+            
+              John Hunt,
+            
+          
+        
+      
+        
+          
+            
+              Tom Driscoll,
+            
+          
+        
+      
+        
+          
+            
+              Alex Mrozack,
+            
+          
+        
+      
+        
+          
+            
+              Guy Lipworth,
+            
+          
+        
+      
+        
+          
+            
+              Matthew Reynolds,
+            
+          
+        
+      
+        
+          
+            
+              David Brady,
+            
+          
+        
+      
+        
+          
+            
+              David R. Smith,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1126/science.1230054" target="_blank" style="color: #555555;">"<span class="title"><u>Metamaterial Apertures for Computational Imaging</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Science</em>
+        
+          339
+        
+        
+          (6117)
+        
+        
+          : 310–313,
+        
+        
+        <span style="text-transform:capitalize">jan. </span>
+        
+        
+          2013.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Hunt2013S-bibtex">
+        <pre>@article{Hunt2013S,
+  author = {Hunt, John and Driscoll, Tom and Mrozack, Alex and Lipworth, Guy and Reynolds, Matthew and Brady, David and Smith, David R.},
+  journal = {Science},
+  title = {Metamaterial Apertures for Computational Imaging},
+  year = {2013},
+  month = jan,
+  number = {6117},
+  pages = {310--313},
+  volume = {339},
+  doi = {10.1126/science.1230054},
+  issn = {1095-9203},
+  publisher = {American Association for the Advancement of Science (AAAS)}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li>
+<li><div id="Psaltis1990N">
+  
+    <span class="author">
+      
+        
+          
+            
+              Demetri Psaltis,
+            
+          
+        
+      
+        
+          
+            
+              David Brady,
+            
+          
+        
+      
+        
+          
+            
+              Xiang-Guang Gu,
+            
+          
+        
+      
+        
+          
+            
+              Steven Lin,
+            
+          
+        
+      
+    </span>
+
+    
+      <a href="https://doi.org/10.1038/343325a0" target="_blank" style="color: #555555;">"<span class="title"><u>Holography in artificial neural networks</u></span>,"</a>
+    
+
+    <span class="periodical">
+      
+        <em>Nature</em>
+        
+          343
+        
+        
+          (6256)
+        
+        
+          : 325–330,
+        
+        
+        <span style="text-transform:capitalize">jan. </span>
+        
+        
+          1990.
+        
+        <!-- 
+        [IF: <b style="color:#2465bb;"></b>].
+          -->
+      
+    </span>
+    
+
+    
+    <!-- <div class="dropDownBibtex" id="Psaltis1990N-bibtex">
+        <pre>@article{Psaltis1990N,
+  author = {Psaltis, Demetri and Brady, David and Gu, Xiang-Guang and Lin, Steven},
+  journal = {Nature},
+  title = {Holography in artificial neural networks},
+  year = {1990},
+  month = jan,
+  number = {6256},
+  pages = {325--330},
+  volume = {343},
+  doi = {10.1038/343325a0},
+  issn = {1476-4687},
+  publisher = {Springer Science and Business Media LLC}
+}
+</pre>
+    </div> -->
+    <span class="links" style="margin-bottom: 2px;">
+    
+    
+    
+    
+    
+    
+    
+        
+    
+    
+    
+    
+    
+    </span>
+
+   
+    
+    
+    
+      <span class="small" style="color:#2465bb;">
+         
+      </span>
+    
+
+</div>
+</li></ol>
+
+  <h2 id="conference">Conference</h2>
+
+  <ol class="bibliography"></ol>
+
+  <h2 id="patent">Patent</h2>
+
+  <ol class="bibliography"></ol>
+
+</div>
+
+<!-- talks -->
+<div id="bytalk" style="display:none;">
+
+  <h3 id="selected-talks">Selected talks</h3>
+
+  <ol class="bibliography"></ol>
+
+</div>
+
+</div>
+
+
+        <script type="text/javascript">
+          // revert publication list number
+          var olists = document.getElementsByTagName('ol');
+          for (var i = 0; i < olists.length; i++) { 
+            // if (!olists[i].className.match(/\breversed\b/)) 
+            //   continue; 
+            var items = olists[i].getElementsByTagName('li'); 
+            for(var j = 0; j < items.length; j++) {
+               items[j].setAttribute("value", items.length - j); 
+            } 
+          }
+
+      </script>
+      </div>
+    </div>
+
+    
+<footer class="sticky-bottom mt-5">
+  <div class="container" style="text-align:center;">
+    &copy; Copyright 2024, Camera Lab at University of Arizona
+    <br>
+    Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and <a href="https://github.com/inukshuk/jekyll-scholar" target="_blank">Jekyll Scholar</a>
+
+    
+    | Last updated in February, 2024
+    
+  </div>
+</footer>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://localhost:4000/assets/js/bootstrap.min.js"></script>
+
+  </body>
+
+</html>
