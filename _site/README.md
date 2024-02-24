@@ -18,10 +18,18 @@
 ```markdown
 ---
 name: A B
-position: researchstaff
+position: researchstaff/gradstudent/postdoc/intern/visiting/others/alumni
 avatar: xx.jpg
 twitter:
-joined: 2016
+email: 
+scholar: 
+web: 
+github: 
+twitter: 
+previous: researchstaff/gradstudent/postdoc/intern/visiting/others/alumni
+joined: 2020
+left: 2022
+current: Samsung
 ---
 
 <img width="200" src="{{ site.url }}{{site.baseurl}}/assets/images/member/{{page.avatar}}" data-action="zoom">

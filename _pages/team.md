@@ -114,8 +114,6 @@ title: "Team"
 {% assign pos = 'Graduate Student' %}
 {% elsif profile.previous=='visiting' %}
 {% assign pos = 'Visiting' %}
-{% elsif profile.previous=='intern' %}
-{% assign pos = 'Intern' %}
 {% elsif profile.previous=='others' %}
 {% assign pos = 'Others' %}
 {% endif %}
