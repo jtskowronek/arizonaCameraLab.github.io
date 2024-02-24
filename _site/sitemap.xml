@@ -43,12 +43,6 @@
 <loc>http://localhost:4000/team/zhipeng_dong</loc>
 </url>
 <url>
-<loc>http://localhost:4000/conduct/</loc>
-</url>
-<url>
-<loc>http://localhost:4000/posts/</loc>
-</url>
-<url>
 <loc>http://localhost:4000/publications/</loc>
 </url>
 <url>
@@ -56,10 +50,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/assets/images/research/lf-bp.pdf</loc>
-<lastmod>2024-02-20T20:33:10-07:00</lastmod>
+<lastmod>2024-02-24T07:00:49-07:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/assets/images/research/work_summary.pdf</loc>
-<lastmod>2024-02-20T20:33:10-07:00</lastmod>
+<lastmod>2024-02-24T07:00:49-07:00</lastmod>
 </url>
 </urlset>

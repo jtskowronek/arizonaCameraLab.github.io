@@ -111,7 +111,7 @@ title: "Team"
 {% elsif profile.previous=='postdoc' %}
 {% assign pos = 'Postdoc' %}
 {% elsif profile.previous=='gradstudent' %}
-{% assign pos = 'Graduate student' %}
+{% assign pos = 'Graduate Student' %}
 {% elsif profile.previous=='visiting' %}
 {% assign pos = 'Visiting' %}
 {% elsif profile.previous=='intern' %}
@@ -157,8 +157,6 @@ Current: <span>{{ profile.current }}</span>
 
 
 ## Former Members of DISP
-
-
 
 
 | Name                        | Role                  | Year |

@@ -2,10 +2,10 @@
 name: Chengyu Wang
 position: alumni
 avatar: cywang.jpg
-email: nichen@arizona.edu
-scholar: https://scholar.google.com/citations?user=adQED6IAAAAJ&sortby=pubdate
-web: https://ni-chen.github.io/
-github: ni-chen
+email: 
+scholar: 
+web: 
+github: 
 previous: gradstudent
 joined: 2020
 left: 2022

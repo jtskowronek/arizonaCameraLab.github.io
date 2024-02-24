@@ -2,10 +2,10 @@
 name: Ahmed AI Ghamdi
 position: gradstudent
 avatar: aaghamdi.jpeg
-email: nichen@arizona.edu
-scholar: https://scholar.google.com/citations?user=adQED6IAAAAJ&sortby=pubdate
-web: https://ni-chen.github.io/
-github: ni-chen
+email: 
+scholar: 
+web: 
+github: 
 # twitter: ni_chen
 joined: 2022
 ---

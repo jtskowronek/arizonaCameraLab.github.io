@@ -2,10 +2,10 @@
 name: Greg Nero
 position: gradstudent
 avatar: gregnero.png
-email: nichen@arizona.edu
-scholar: https://scholar.google.com/citations?user=adQED6IAAAAJ&sortby=pubdate
-web: https://ni-chen.github.io/
-github: ni-chen
+email: 
+scholar: 
+web: 
+github: 
 # twitter: ni_chen
 joined: 2022
 ---
@@ -21,7 +21,7 @@ joined: 2022
 
 <i class="fa fa-building"></i> Meinel 619, Wyant College of Optical Sciences, University of Arizona, 1630 E. University Blvd., Tucson, AZ 85721-0077, USA
 
-Don't hesitate to reach out to me through Slack at ***nichen@arizona.edu*** if you have any inquiries or wish to engage in discussions related to my research. 
+
 
 <hr>
 
@@ -34,9 +34,7 @@ Don't hesitate to reach out to me through Slack at ***nichen@arizona.edu*** if y
 
 ## Education
 
-- Ph.D., [OEQE Lab](http://oeqelab.snu.ac.kr/), Electrical and Computer Engineering, Seoul National University, Advisor: Prof. [Byoungho Lee](http://oeqelab.snu.ac.kr/PROF).
-- M.E., [OIP Lab](http://osp.cbnu.ac.kr/), Computer and Communication Engineering, Chungbuk National University, Advisors: Prof. [Nam Kim](http://osp.cbnu.ac.kr/lab/pro.html) and Prof. [Jae-Hyeung Park](https://sites.google.com/view/3diplab).
-- B.E., Computer Software Engineering, Harbin Institute of Technology (Weihai).
+
 
 
 <!-- ## Professional Activities

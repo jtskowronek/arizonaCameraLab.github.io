@@ -16,19 +16,20 @@ DISP MOLECULAR IMAGING PROJECT
 The goal of the DISP Molecular Imaging Group is to combine optical sensing techniques such as Raman spectroscopy with computational optical sensing methodologies to create innovative systems with higher performance, lower cost, and/or lower volume.
 
 Size of latest prototype system
-Size of latest prototype system
+
 
 
 Cutaway view of prototype system
-Cutaway view of prototype system
 
 
-Prototype Cuvette Raman MMS Spectrometer
+
+
 Prototype Cuvette Raman MMS Spectrometer
 
 
 Prototype Tissue Raman MMS Spectrometer
-Prototype Tissue Raman MMS Spectrometer
+
+
 
 HIGH ETENDUE RAMAN SYSTEM
 The primary objective of this proposal is to develop compact, reasonable cost BAC (Blood Alcohol Concentration) monitors for continuous real-time measurement. With funding from the National Institute on Alcohol Abuse and Alcoholism, we have built a non-invasive in-vivo blood alcohol (and other blood constituents) optical detection protocol based on Hadamard-mask multiple-channel Raman spectrometer. This device will outperform conventional slit-based Raman spectrometer by overcoming the interference of scattering (by Hadamard-coded mask) and fluorescence (multi-excitation and proper algorithm). The BAC sensors we envision require physical contact between the measurement system and the subject, but other than this tactile requirement we expect to achieve extremely flexible and deployable instruments. We believe that it will ultimately be possible to build a Raman instrument with system volume of 10 cubic cm or less and weight of 5 kg or less that can directly sample BAC with data acquisition times below 5 seconds. These instruments will log and communicate data telemetrically and operate autonomously. They will be able to audibly demand subject attention, to biometrically verify compliance and to log noncompliance.
