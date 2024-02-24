@@ -13,7 +13,8 @@ joined: 2019
 
 ## J.W. and H.M. Goodman Endowed Chair Professor 
 
-<i class="fa fa-building"></i> Meinel  429<br>
+<i class="fa fa-building"></i> Meinel 429, College of Optical Sciences, University of Arizona, 1630 E. University Blvd., Tucson, AZ 85721<br>
+<i class="fa fa-phone"></i> +1 (520) 626-1078<br>
 
 
 <hr>
