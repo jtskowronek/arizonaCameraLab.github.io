@@ -9104,12 +9104,12 @@ button.close {
   /************ Styles for the base elements of the theme.*********************/
   a,
   table.table a {
-    color: #00369f;
+    color: #AB0520;
   }
 
   a:hover,
   table.table a:hover {
-    color: #00369f;
+    color: #AB0520;
     text-decoration: underline;
   }
 

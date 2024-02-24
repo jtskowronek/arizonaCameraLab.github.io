@@ -96,17 +96,9 @@ toc: true
 
 {% bibliography -f conf -q @conference %}
 
-## Patent
+## Books and Book Chapters
 
-{% bibliography -f others -q @patent %}
+{% bibliography -f others -q @book || @inbook %}
 
-</div>
-
-<!-- talks -->
-<div id="bytalk" style="display:none;">
-
-### Selected talks
-
-{% bibliography -f conf -q @talk || @conference[key=Chen2021DH || key=Chen2020DH || key=Chen2023FiO] %}
 
 </div>

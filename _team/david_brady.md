@@ -57,6 +57,13 @@ Brady focuses on computational imaging. Brady led the joint Duke University and 
 
 ## Selected Publications
 
+{% bibliography -f others -q @book || @book[key=Brady2008OIS] %}
+
+
 {% bibliography -f journal -q @article || @journal[key=Brady2015AiOaP || key=Brady2018O || key=Yuan2021ISPM || key=Brady2012N || key=Brady2009OE || key=Arce2014ISPM || key=Cao2016ISPM || key=Marks1999S || key=Hunt2013S || key=Psaltis1990N] %}
+
+
+
+
 
 <br>
