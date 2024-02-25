@@ -3,7 +3,7 @@ title: "Research"
 layout: gridlay
 excerpt: "Research"
 sitemap: false
-permalink: /research/
+permalink: /research
 ---
 
 
@@ -32,4 +32,3 @@ and football:
 
 [https://aqueti.vids.io/videos/489bd9bc161ee1c1c0/panthers-mov](https://aqueti.vids.io/videos/489bd9bc161ee1c1c0/panthers-mov)
 
-<br><br><br><br>

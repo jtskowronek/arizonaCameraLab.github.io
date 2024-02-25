@@ -247,5 +247,3 @@ Current: <span>{{ profile.current }}</span>
 | Dr. Remy Tumbar              | Ph.D.  |      |
 
 
-
-<br>

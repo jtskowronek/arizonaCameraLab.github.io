@@ -19,10 +19,10 @@ body {
   font-size: 16px;
   height: 100%;
   position: relative;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   margin-bottom: 0px;
-  min-height: 98vh;
+  min-height: 99.2vh;
   line-height: 1.428571429;
   color: #555555;
   background-color: #fff;
@@ -2392,7 +2392,7 @@ pre code {
   }
 
   .col-sm-8 {
-    width: 90%;
+    width: 100%;
   }
 
   .col-sm-9 {
@@ -5694,7 +5694,7 @@ tbody.collapse.in {
 }
 
 .navbar-default .navbar-brand {
-  color: #333333;
+  color: #ffffff;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -8915,7 +8915,7 @@ button.close {
   }
 
   .well {
-    min-height: 20px;
+    min-height: 1028px;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #e8e8e8;
@@ -8950,6 +8950,8 @@ button.close {
     background-image: url('../images/banner.png');
     background-repeat: no-repeat;
     background-position: center top;
+    background-size: 100% 70%;
+    background-color: #ab0520
   }
 
 
@@ -8960,7 +8962,7 @@ button.close {
     line-height: 50px;
     height: 80px;
     margin-left: 0px !important;
-    padding-top: 380px
+    padding-top: 300px
   }
 
   .navbar-nav {
@@ -8970,7 +8972,7 @@ button.close {
   .navbar-right {
     float: right !important;
     margin-right: 0px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
     padding-top: 40px
   }
 
@@ -8994,6 +8996,8 @@ button.close {
     display: block;
     position: relative;
     margin-top: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 20px;
   }
 
   /* Home, News */
@@ -9289,10 +9293,12 @@ button.close {
     width: 100%;
     padding-top: 10px;
     font-size: 80%;
-    position: relative;
     height: 55px;
     bottom: 0px;
     margin-bottom: 0px;
+    background: rgb(244, 237, 229);
+    position: absolute;
+    bottom: 0px;
   }
 
   .header-bar {

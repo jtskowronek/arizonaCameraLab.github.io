@@ -6,7 +6,6 @@ sitemap: false
 permalink: /
 ---
 
-
 <!-- <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
 <ol class="carousel-indicators">
 <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -38,9 +37,6 @@ permalink: /
 </div> -->
 
 
-<br>
-
-
 <!-- ## Welcome
 
 The Duke Information Spaces Project develops sensor arrays for real-time virtual reality broadcasting. As an example, the image shown above was captured by the DISP's AWARE10 camera at the 2013 ACC Championship Game. Click here to view an AWARE10 image interactively. Click [here](http://www.gigapan.com/gigapans/146504) to see more shots from the game.  Current research topics include 
@@ -54,7 +50,6 @@ The Duke Information Spaces Project develops sensor arrays for real-time virtual
 DISP was previously known as the Duke Imaging and Spectroscopy Program, which focused on physical layer coding, generalized sampling and nonlinear signal processing to build optical imaging and spectroscopy systems spanning x-ray to radio wave frequencies. DISP is affiliated with the Department of Electrical and Computer Engineering, the Fitzpatrick Institute for Photonics and the Pratt School of Engineering at Duke University.
 
 More details on DISP can be found by exploring the publications on our [google scholar](https://scholar.google.com/citations?user=CcSZwTsAAAAJ&hl=en) page or by looking at the textbook [Optical Imaging and Spectroscopy](http://www.opticalimaging.org/).  -->
-
 
 
 
@@ -73,4 +68,4 @@ The Camera Lab is led by David Brady, who in 2012 led the team [that developed t
 The Camera Lab develops optical designs, algorithms and systems to continue to press photography toward the physical limits of resolution. We firmly believe that it is possible for the effective information rate of cameras to exceed the Daguerreotype by a trillion times and we are building the systems to do it. Our recent work shows that >10cm camera aperture at >1 megahertz effective frame rate with >100 color channels is possible. But we must be clever about how we balance physics and computation. We use compressive measurement and artificial neural networks to make extreme resolution systems practical and fun to use.
 
 
-<br><br><br>
+
