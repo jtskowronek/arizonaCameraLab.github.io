@@ -2,12 +2,12 @@
 name: Xiao Wang
 position: gradstudent
 avatar: xiaowang.jpg
-email: 
+email: xwang3@arizona.edu
 scholar: 
-web: 
-github: 
-# twitter: ni_chen
-joined: 2022
+web: https://www.linkedin.com/in/xiaowang-optics/
+Linkedin: https://www.linkedin.com/in/xiaowang-optics/ 
+github: https://github.com/ShawnWong-wx
+joined: Feb 2022
 ---
 
 
@@ -17,9 +17,7 @@ joined: 2022
 
 
 ## Ph.D. Student
-
-
-<i class="fa fa-building"></i> Meinel 619, Wyant College of Optical Sciences, University of Arizona, 1630 E. University Blvd., Tucson, AZ 85721-0077, USA
+<i class="fa fa-building"></i> Meinel 106G, Wyant College of Optical Sciences, University of Arizona, 1630 E. University Blvd., Tucson, AZ 85721-0077, USA
 
 
 <hr>
@@ -32,6 +30,7 @@ joined: 2022
 - 2014.09~2016.05: Research Scientist, Department of Electrical and Electronic Engineering, The University of Hong Kong. -->
 
 ## Education
+[Linkedin](https://www.linkedin.com/in/xiaowang-optics/)
 
 
 
