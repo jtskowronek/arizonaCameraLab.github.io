@@ -1,7 +1,7 @@
 ---
 name: James Skowronek
 position: gradstudent
-avatar: dummy.png
+avatar: james_skowronek.png
 email: 
 scholar: 
 web: 
