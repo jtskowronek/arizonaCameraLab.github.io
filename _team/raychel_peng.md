@@ -1,6 +1,6 @@
 ---
 name: Raychel Peng
-position: intern
+position: 
 avatar: dummy.png
 email: 
 scholar: 

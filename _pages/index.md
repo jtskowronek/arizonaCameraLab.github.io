@@ -1,5 +1,5 @@
 ---
-title: "Camera Lab at University of Arizona"
+title: "Camera Lab"
 layout: homelay
 excerpt: "AISI"
 sitemap: false

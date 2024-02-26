@@ -68,6 +68,9 @@ title: "Team"
 {% if profile.twitter  %}
 <a href="https://twitter.com/{{ profile.twitter }}"><i class="fa fa-twitter fa-align-left fa-lg"></i></a>
 {% endif %}
+{% if profile.linkedin  %}
+<a href="https://www.linkedin.com/in/{{ profile.linkedin }}"><i class="fa fa-linkedin fa-align-left fa-lg"></i></a>
+{% endif %}
 </p>
 </div>
 {% endif %}
@@ -140,6 +143,9 @@ Current: <span>{{ profile.current }}</span>
 {% endif %}
 {% if profile.twitter %}
 <a href="https://twitter.com/{{ profile.twitter }}"><i class="fa fa-twitter fa-align-left fa-lg"></i></a>
+{% endif %}
+{% if profile.linkedin  %}
+<a href="https://www.linkedin.com/in/{{ profile.linkedin }}"><i class="fa fa-linkedin fa-align-left fa-lg"></i></a>
 {% endif %}
 </p>
 </div>    

@@ -2008,7 +2008,7 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
   /* border-top: 1px solid #e8e8e8; */
-  max-width: 1082px;
+  /* max-width: 100%; */
 }
 
 .container:before,
@@ -2035,7 +2035,7 @@ pre code {
 
 @media (min-width: 200px) {
   .container {
-    width: 1082px;
+    width: 100%;
   }
 }
 
@@ -5356,6 +5356,7 @@ tbody.collapse.in {
 .navbar-fixed-top .navbar-collapse,
 .navbar-fixed-bottom .navbar-collapse {
   max-height: 340px;
+  float: right;
 }
 
 @media (max-device-width: 480px) and (orientation: landscape) {
@@ -8962,7 +8963,7 @@ button.close {
     line-height: 50px;
     height: 80px;
     margin-left: 0px !important;
-    padding-top: 300px
+    padding-top: 360px
   }
 
   .navbar-nav {
@@ -9521,6 +9522,7 @@ button.close {
     object-position: center top;
     width: 200px;
     height: 200px;
+    /* max-width: 100%; */
   }
 
   .pos_header {
@@ -9544,6 +9546,7 @@ button.close {
   .list-post-title img {
     margin-bottom: 0.75em;
     margin-top: 0.75em;
+    max-width: 200px !important;
   }
 
   .list-post-title .name {
