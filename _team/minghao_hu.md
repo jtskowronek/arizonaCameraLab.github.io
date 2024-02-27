@@ -8,9 +8,9 @@ web:
 github: 
 # twitter: ni_chen
 previous: gradstudent
-joined: 2020
-left: 2022
-current: Samsung
+joined: 2018
+left: 2023
+current: Transformative Optics Corporation
 ---
 
 

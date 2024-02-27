@@ -2,7 +2,7 @@
 name: Greg Nero
 position: gradstudent
 avatar: gregnero.png
-email: 
+email: gnero@arizona.edu
 scholar: 
 web: 
 github: 
@@ -19,7 +19,7 @@ joined: 2022
 ## Associate Research Professor
 
 
-<i class="fa fa-building"></i> Meinel 619, Wyant College of Optical Sciences, University of Arizona, 1630 E. University Blvd., Tucson, AZ 85721-0077, USA
+<i class="fa fa-building"></i> Meinel 106G, Wyant College of Optical Sciences, University of Arizona, 1630 E. University Blvd., Tucson, AZ 85721-0077, USA
 
 
 

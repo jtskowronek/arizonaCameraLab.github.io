@@ -2,7 +2,7 @@
 name: James Skowronek
 position: gradstudent
 avatar: james_skowronek.jpg
-email: 
+email: james.skowronek@gmail.com
 scholar: 
 web: 
 github: 
@@ -19,7 +19,7 @@ joined: 2022
 ## Master Student
 
 
-<i class="fa fa-building"></i> Meinel 619, Wyant College of Optical Sciences, University of Arizona, 1630 E. University Blvd., Tucson, AZ 85721-0077, USA
+<i class="fa fa-building"></i> Meinel 106G, Wyant College of Optical Sciences, University of Arizona, 1630 E. University Blvd., Tucson, AZ 85721-0077, USA
 
 
 <hr>
