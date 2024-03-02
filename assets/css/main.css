@@ -6293,6 +6293,67 @@ a.badge:focus {
   max-width: 100%;
 }
 
+
+
+
+@media screen and (max-width: 768px) {
+  .list-item-people {
+    display: inline-block;
+    padding-right: 1em;
+    vertical-align: top !important;
+    /* height: 150px !important; */
+    width: 110px !important;
+  }
+
+  
+  .profile-thumbnail {
+    object-fit: cover;
+    object-position: center top;
+    width: 100px;
+    height: 100px;
+    /* max-width: 100%; */
+  }
+
+  .navbar-default .navbar-brand {
+    color: #555555;
+  }
+
+  .container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .row {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 50px;
+  }
+
+  .navbar-brand {
+    position: relative;
+    margin-top: 20px;
+    float: left;
+    padding-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+  } 
+
+  .navbar-collapse {
+    overflow-x: visible;
+    padding-right: 15px;
+    padding-left: 15px;
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    -webkit-overflow-scrolling: touch;
+    background-color: white;
+}
+
+}
+
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding-top: 48px;
