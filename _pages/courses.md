@@ -10,7 +10,7 @@ permalink: /courses/
 
 <br>
 
-## **PTI 556 COMPUTATIONAL IMAGING**
+## **OPTI 556 COMPUTATIONAL IMAGING**
 
 Computational imaging consists of joint design of measurement strategy and estimation algorithms for image formation from radiation fields. This course reviews principles of forward model and inversion algorithms for computational imaging and analyzes imaging systems for geometric, wave and statistical radiation field models. Forward models, consisting of discrete representations of continuous image and measurement spaces, are fundamental to computational imaging. The course reviews how to form and evaluate such models. Since convolutional neural networks are the most important tool in modern inverse models, their use and application in concert with linear and regularized regression is explored. Coded aperture and structured illumination systems are considered for X-ray imaging and coherent phase retrieval. Physical compression and decompressive estimation are discussed. The physical and information limits of imager resolution are explored.
 
