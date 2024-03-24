@@ -7,7 +7,7 @@ scholar:
 web: 
 github: 
 twitter: 
-joined: 2022
+joined: 2020
 ---
 
 

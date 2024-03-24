@@ -21,6 +21,13 @@ toc: true
 </div>
 <br> -->
 
+<br>
+
+Full publication on [Google Scholar](https://scholar.google.com/citations?hl=en&authuser=1&user=CcSZwTsAAAAJ)
+
+<br>
+
+
 <!-- Nav -->
 <ul class="nav nav-tabs" style="width:100%; margin: 0 auto;">
     <li class="active">
@@ -98,7 +105,10 @@ toc: true
 
 ## Books and Book Chapters
 
-{% bibliography -f others -q @book || @inbook %}
+{% bibliography -f others -q @book %}
 
 
 </div>
+
+
+<br><br>

@@ -3,7 +3,7 @@ name: Shengtai Zhu
 position: gradstudent
 avatar: shengtaizhu.jfif
 email: shengtaizhu@arizona.edu
-joined: 
+joined: 2023
 ---
 
 

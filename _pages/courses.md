@@ -32,3 +32,6 @@ feasible with traditional digital imaging. This course examines spatial, tempora
 This course is offered in Spring Semesters.
 
 
+<br>
+
+<hr>

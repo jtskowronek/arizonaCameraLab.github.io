@@ -8,19 +8,50 @@ permalink: /project/
 
 
 
-## History of DISP
+## Arizona Camera Lab
 
 
-<img src="{{ site.url }}{{site.baseurl}}/assets/images/disp/optical_perceptron_md.jpeg" style="width:280px; float: right; margin-left: 10px;">
-artificial neural networkThe intellectual background of the research project can be traced back to David Brady's graduate school experience at the California Institute of Technology in the 1980s. Under the direction of Demitri Psaltis, Brady explored the use of volume holography to mimick the neural processes of the human brain creating an optical perceptron  - or an artificial neural network. The photo at right shows an optical neural network from Brady's work at that time. The construction of multiple grating holograms enabled the implementation of large-scale linear transformations on distributed optical fields, an advance that broke through the historical barriers holding back the potential of optical networks.  
+
+
+## Current Research
+
+Current DISP research focuses on the design of compact camera arrays to fully capture the "light field." This means that we want to capture a real environment and then be able to view the environment from any view point and at any time in real-time broadcasts. 
+
+To achieve this goal, we develop novel optical and electronic architectures to reduce camera size, weight, power and cost per pixel and we develop artificial intelligence algorithms to control camera capture parameters, to encode and transmit data structures and to create virtual views. 
+
+The general idea of what we would like to achieve in broadcast media builds on work at a company spun off from DISP, Aqueti. In work with Premier Boxing Champions and the National Football League, Aqueti created the videos linked below. DISP is working on AI control systems and camera platforms to continue to push toward fully interactive VR broadcasting. 
+
+This video demonstrates the PBC system:
+
+[https://aqueti.vids.io/videos/e89bdbb71e1ee5cc60/pursuit-mov](https://aqueti.vids.io/videos/e89bdbb71e1ee5cc60/pursuit-mov)
+
+This explores array camera capture and rendering
+
+[https://aqueti.vids.io/videos/e89bdbb71e1ce5ce60/boxingupclose-mov](https://aqueti.vids.io/videos/e89bdbb71e1ce5ce60/boxingupclose-mov)
+
+which can be used even for golf:
+
+[https://aqueti.vids.io/videos/a49bdbb71e1ee5c32c/golf-mov](https://aqueti.vids.io/videos/a49bdbb71e1ee5c32c/golf-mov)
+
+and football:
+
+[https://aqueti.vids.io/videos/489bd9bc161ee1c1c0/panthers-mov](https://aqueti.vids.io/videos/489bd9bc161ee1c1c0/panthers-mov)
+
 
 <hr>
 
+## DISP GROUP
+<img src="{{ site.url }}{{site.baseurl}}/assets/images/disp/optical_perceptron_md.jpeg" style="width:280px; float: right; margin-left: 10px;">
+The intellectual background of the research project can be traced back to David Brady's graduate school experience at the California Institute of Technology in the 1980s. Under the direction of Demitri Psaltis, Brady explored the use of volume holography to mimick the neural processes of the human brain creating an optical perceptron  - or an artificial neural network. The photo at right shows an optical neural network from Brady's work at that time. The construction of multiple grating holograms enabled the implementation of large-scale linear transformations on distributed optical fields, an advance that broke through the historical barriers holding back the potential of optical networks.
+
+
+<hr>
+
+
 ## PHOTONIC SYSTEMS GROUP
 
-
 <img src="{{ site.url }}{{site.baseurl}}/assets/images/disp/planar_holographic.jpeg" style="width:280px; float: right; margin-left: 10px;">
-planar holographic interconnectIn 1990, David Brady accepted a position with the Beckman Institute for Advanced Science and Technology of the University of Illinois at Urbana-Champaign. It was at UIUC that the immediate predecessor of DISP came into being, namely, the Photonic Systems Group. Over time, the new group represented a change of emphasis from Brady's interests at CIT. Whereas his original research focused on the possibilities of optical computing, the new group turned its attention toward optical communication, studying ways to better collect, manage and traffic light-borne information. Over the course of the 1990s, the focus of the Photonic Systems Group underwent further development transitioning from an interest in optical means of storing information to photonic sensing and perception.
+In 1990, David Brady accepted a position with the [Beckman Institute for Advanced Science and Technology](http://www.beckman.uiuc.edu/) of the University of Illinois at Urbana-Champaign. It was at UIUC that the immediate predecessor of DISP came into being, namely, the Photonic Systems Group. Over time, the new group represented a change of emphasis from Brady's interests at CIT. Whereas his original research focused on the possibilities of optical computing, the new group turned its attention toward optical communication, studying ways to better collect, manage and traffic light-borne information. Over the course of the 1990s, the focus of the Photonic Systems Group underwent further development transitioning from an interest in optical means of storing information to photonic sensing and perception.
 
 The group's initial work built on the importance of holography as a means of computer storage. In 1994, the group received a patent for its development of multilayered optical memory with means for recording and reading information. The group continued to work on optical storage, experimenting with different dyes and mediums for holography. The picture on the right is an example of a planar holographic interconnect that the group developed by the middle of the decade.
 
