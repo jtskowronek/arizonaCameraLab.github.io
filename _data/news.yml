@@ -1,6 +1,0 @@
-- date: 2021-03-01
-  headline: "Model-based HoloNet got accepted by <a href='https://ieeexplore.ieee.org/document/9369862'>IEEE TCI</a>!"
-  summary: "Model-based 3D holographic imaging: Gabor holography is a simple and effective approach for 3D imaging. However, it suffers from a DC term, twin-image entanglement, and defocus noise. The conventional approach for solving this problem is either using an off-axis setup, or compressive holography. The former sacrifices simplicity, and the latter is computationally demanding and time consuming. To cope with this problem, we propose a model-based holographic network (MB-HoloNet) for 3D particle imaging. The free-space point spread function, which is essential for hologram reconstruction, is used as a prior in the MB-HoloNet. All parameters are learned end-to-end. The physical prior makes the network efficient and stable for both localization and 3D particle size reconstructions. <a href='https://arizonacameraLab.github.io//3D-MB-HoloNet/'>Project page</a>"
-  avatar: TCI2021.png
-  link: https://ieeexplore.ieee.org/document/9369862
-
